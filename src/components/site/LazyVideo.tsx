@@ -60,7 +60,8 @@ export function LazyVideo({ src, poster, className = "" }: Props) {
           playsInline
           autoPlay
           preload="metadata"
-собств        />
+        />
+
       ) : (
         <div
           className={className}
